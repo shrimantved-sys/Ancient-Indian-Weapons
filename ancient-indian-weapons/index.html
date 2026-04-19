@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ancient Indian Warfare | Weapons, Tactics &amp; Metallurgy</title>
+  <meta name="description"
+    content="Explore the historical weapons, complex military tactics, and advanced metallurgy of ancient India.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&amp;family=Inter:wght@300;400;500;700&amp;display=swap"
+    rel="stylesheet">
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/animations.css">
+</head>
+
+<body>
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand glow-on-hover">YUDHA</a>
+    <div class="hamburger">☰</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="#pillars" class="nav-link">Pillars</a></li>
+      <li><a href="tactics.html" class="nav-link">Tactics</a></li>
+      <li><a href="metallurgy.html" class="nav-link">Metallurgy</a></li>
+      <li><a href="weapons.html" class="nav-link">Weapons</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+      <h1 class="hero-title text-metallic">Ancient Indian Warfare</h1>
+      <p class="hero-subtitle">Weapons &bull; Military Tactics &bull; Metallurgy</p>
+      <a href="#pillars" class="btn btn-primary" style="margin-top: 1.5rem;">Explore the Science of War</a>
+    </div>
+  </header>
+
+  <!-- Three Core Pillars -->
+  <section id="pillars" class="container" style="padding-top: 6rem; padding-bottom: 3rem;">
+    <h2 class="section-title" data-aos="fade-up">The Three Pillars of War</h2>
+    <div class="grid-3">
+      <a href="weapons.html" class="pillar-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="pillar-icon">&#x2694;</div>
+        <h3 class="card-title">Arsenal &amp; Weapons</h3>
+        <p class="text-muted">Explore the lethal engineering of the Khadga, Katar, Urumi, and the revered Dhanush.</p>
+      </a>
+      <a href="tactics.html" class="pillar-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="pillar-icon">&#x1F6E1;</div>
+        <h3 class="card-title">Military Tactics</h3>
+        <p class="text-muted">Discover the Chaturanga system, elephant shock warfare, and intricate battlefield
+          formations.</p>
+      </a>
+      <a href="metallurgy.html" class="pillar-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="pillar-icon">&#x1F525;</div>
+        <h3 class="card-title">Advanced Metallurgy</h3>
+        <p class="text-muted">Uncover the secrets of Wootz steel, bloomery smelting, and supreme heat treatments.</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- Timeline Section -->
+  <section id="timeline" class="container" style="padding-top: 3rem;">
+    <h2 class="section-title" data-aos="fade-up">Evolution of Warfare</h2>
+    <div class="timeline">
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="text-accent">Vedic Period (c. 1500 &ndash; 500 BCE)</h3>
+          <p class="text-muted">Reliance on the Dhanush (bow) and Bana (arrow). Chariot warfare was supreme. Bronze and
+            early iron weapons began to emerge, supported by elementary battle formations.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-left">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="text-accent">Mauryan Empire (c. 322 &ndash; 185 BCE)</h3>
+          <p class="text-muted">Highly organized Chaturanga armies as described in the Arthashastra. Introduction of
+            advanced metallurgy, standardizing the Khadga (sword) and utilizing formidable elephant corps for shock
+            warfare.</p>
+        </div>
+      </div>
+      <div class="timeline-item" data-aos="fade-right">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3 class="text-accent">Gupta Empire (c. 319 &ndash; 543 CE)</h3>
+          <p class="text-muted">The "Golden Age" brought Crucible Wootz steel to global prominence. Heavy cavalry and
+            intricate tactical Vyuhas (formations) allowed the empire to dominate the subcontinent.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Weapon Categories Section -->
+  <section id="categories" style="background-color: var(--bg-secondary);">
+    <div class="container">
+      <h2 class="section-title" data-aos="fade-up">Weapon Classifications</h2>
+      <div class="grid-3">
+        <div class="card" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card-body">
+            <h3 class="card-title">Melee Weapons</h3>
+            <p class="card-text">Close-quarters combat tools engineered for shock and armor piercing.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="weapons/melee.html" class="text-accent glow-on-hover"
+                style="font-weight: 500; font-size: 0.9rem; text-transform: uppercase;">View Melee Weapons &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card-body">
+            <h3 class="card-title">Polearms</h3>
+            <p class="card-text">Vital for infantry formations (Padati) to repel cavalry charges and hold lines.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="weapons/bhala.html" class="text-accent glow-on-hover"
+                style="font-weight: 500; font-size: 0.9rem; text-transform: uppercase;">Bhala &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="300">
+          <div class="card-body">
+            <h3 class="card-title">Ranged</h3>
+            <p class="card-text">The supreme weapons, utilized by elite chariot warriors for devastating long-range
+              barrages.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="weapons/dhanush.html" class="text-accent glow-on-hover"
+                style="font-weight: 500; font-size: 0.9rem; text-transform: uppercase;">Dhanush &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="400">
+          <div class="card-body">
+            <h3 class="card-title">Throwing (Projectile)</h3>
+            <p class="card-text">Aerodynamic projectiles engineered for precision strikes in mid-range skirmishes.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="weapons/chakram.html" class="text-accent glow-on-hover"
+                style="font-weight: 500; font-size: 0.9rem; text-transform: uppercase;">Chakram &rarr;</a>
+            </div>
+          </div>
+        </div>
+        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+          <div class="card-body">
+            <h3 class="card-title">Defensive Gear</h3>
+            <p class="card-text">Kavacha (armor) and Dhal (shields) forged from hardened leather, wood, and advanced
+              mail-and-plate steel.</p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1rem;">
+              <a href="weapons/armor.html" class="text-accent glow-on-hover"
+                style="font-weight: 500; font-size: 0.9rem; text-transform: uppercase;">View Armor &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Arsenal -->
+  <section id="featured" class="container">
+    <h2 class="section-title" data-aos="fade-up">Explore the Arsenal</h2>
+    <div class="grid-3">
+      <a href="weapons/khadga.html" class="card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-img-wrapper"><img src="assets/images/khadga.png" alt="Khadga Sword" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Khadga</h3>
+          <p class="card-text">Heavy straight sword utilizing Wootz steel for devastating slashing power.</p>
+        </div>
+      </a>
+      <a href="weapons/katar.html" class="card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-img-wrapper"><img src="assets/images/katar.png" alt="Katar Dagger" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Katar</h3>
+          <p class="card-text">Armor-piercing push dagger, essential for close-quarters infantry melees.</p>
+        </div>
+      </a>
+      <a href="weapons/urumi.html" class="card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-img-wrapper"><img src="assets/images/urumi.png" alt="Urumi" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Urumi</h3>
+          <p class="card-text">Flexible whip-sword, a masterclass in spring-steel metallurgy.</p>
+        </div>
+      </a>
+      <a href="weapons/gada.html" class="card" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-img-wrapper"><img src="assets/images/gada.png" alt="Gada Mace" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Gada</h3>
+          <p class="card-text">Heavy blunt mace engineered to crush heavy cavalry armor.</p>
+        </div>
+      </a>
+      <a href="weapons/bhala.html" class="card" data-aos="fade-up" data-aos-delay="200">
+        <div class="card-img-wrapper"><img src="assets/images/bhala.png" alt="Bhala Spear" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Bhala / Tomara</h3>
+          <p class="card-text">Polearms &amp; javelins critical for phalanx formations and anti-cavalry defense.</p>
+        </div>
+      </a>
+      <a href="weapons/dhanush.html" class="card" data-aos="fade-up" data-aos-delay="300">
+        <div class="card-img-wrapper"><img src="assets/images/dhanush.png" alt="Dhanush Bow" class="card-img"></div>
+        <div class="card-body">
+          <h3 class="card-title">Dhanush</h3>
+          <p class="card-text">The supreme ranged weapon, combining horn, sinew, and bamboo engineering.</p>
+        </div>
+      </a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3 class="footer-title">YUDHA</h3>
+        <p class="text-muted" style="font-size: 0.95rem;">Exploring the intersection of martial arts, military strategy,
+          and metallurgical science in ancient India.</p>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">Core Pillars</h3>
+        <ul class="footer-links">
+          <li><a href="weapons.html">Arsenal &amp; Weapons</a></li>
+          <li><a href="tactics.html">Military Tactics</a></li>
+          <li><a href="metallurgy.html">Advanced Metallurgy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3 class="footer-title">Featured Lore</h3>
+        <ul class="footer-links">
+          <li><a href="weapons/khadga.html">The Khadga's Edge</a></li>
+          <li><a href="weapons/urumi.html">Mastery of Urumi</a></li>
+          <li><a href="tactics.html">The Chaturanga Army</a></li>
+          <li><a href="metallurgy.html">Secrets of Wootz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Ancient Indian Warfare Interactive Project.
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" title="Back to Top">&uarr;</button>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/scroll-animations.js"></script>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
